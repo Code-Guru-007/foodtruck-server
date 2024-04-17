@@ -1,0 +1,27 @@
+{
+  "name": "foodtruck-server",
+  "version": "1.0.0",
+  "description": "this is for Roby Food Truck Flutter App",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon run index.js"
+  },
+  "author": "MXYH",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.4",
+    "nodemon": "^3.1.0",
+    "slugify": "^1.6.6",
+    "validator": "^13.11.0"
+  }
+}
